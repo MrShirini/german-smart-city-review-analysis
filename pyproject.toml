@@ -1,0 +1,18 @@
+[project]
+name = "smart-city-review-mining"
+version = "0.1.0"
+description = "Text mining and sentiment analysis of German municipal app reviews."
+requires-python = ">=3.11"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "scikit-learn",
+    "nltk",
+    "wordcloud",
+    "seaborn",
+    "textblob",
+    "notebook>=7.5.6",
+    "ipykernel>=7.2.0",
+]
